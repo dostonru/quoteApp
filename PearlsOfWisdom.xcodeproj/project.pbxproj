@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8623272F90E7DFA8257639E9 /* Pods_PearlsOfWisdom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05417B7FD6583D167545E54 /* Pods_PearlsOfWisdom.framework */; };
+		9B2ABBC3C674F83D2B2FF5C0 /* Pods_PearlsOfWisdom_PearlsOfWisdomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59203F73C958A2E62B88E15F /* Pods_PearlsOfWisdom_PearlsOfWisdomTests.framework */; };
+		A15D88572CF9917E75D00061 /* Pods_PearlsOfWisdom_PearlsOfWisdomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D19C028A545F510BA172EA /* Pods_PearlsOfWisdom_PearlsOfWisdomUITests.framework */; };
+		F92F23B329B3F83D000B46C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F23B229B3F83D000B46C5 /* AppDelegate.swift */; };
+		F92F23B529B3F83D000B46C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F23B429B3F83D000B46C5 /* SceneDelegate.swift */; };
+		F92F23B729B3F83D000B46C5 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F23B629B3F83D000B46C5 /* QuotesViewController.swift */; };
+		F92F23BA29B3F83D000B46C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92F23B829B3F83D000B46C5 /* Main.storyboard */; };
+		F92F23BC29B3F83E000B46C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92F23BB29B3F83E000B46C5 /* Assets.xcassets */; };
+		F92F23BF29B3F83E000B46C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92F23BD29B3F83E000B46C5 /* LaunchScreen.storyboard */; };
+		F92F23CA29B3F83F000B46C5 /* PearlsOfWisdomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F23C929B3F83F000B46C5 /* PearlsOfWisdomTests.swift */; };
+		F92F23D429B3F83F000B46C5 /* PearlsOfWisdomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F23D329B3F83F000B46C5 /* PearlsOfWisdomUITests.swift */; };
+		F92F23D629B3F83F000B46C5 /* PearlsOfWisdomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F23D529B3F83F000B46C5 /* PearlsOfWisdomUITestsLaunchTests.swift */; };
+		F92F23E429B48C4B000B46C5 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F23E329B48C4B000B46C5 /* Quote.swift */; };
+		F92F23E829B4AD0D000B46C5 /* QuotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F23E729B4AD0D000B46C5 /* QuotesService.swift */; };
+		F92F23EC29B50FA6000B46C5 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F23EB29B50FA6000B46C5 /* QuotesViewModel.swift */; };
+		F92F23F029B521A8000B46C5 /* AlcanteraSerif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F92F23EF29B51EFF000B46C5 /* AlcanteraSerif.ttf */; };
+		F92F23F329B52D18000B46C5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F23F229B52D18000B46C5 /* UIColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F92F23C629B3F83F000B46C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92F23A729B3F83D000B46C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92F23AE29B3F83D000B46C5;
+			remoteInfo = Bubbles;
+		};
+		F92F23D029B3F83F000B46C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92F23A729B3F83D000B46C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92F23AE29B3F83D000B46C5;
+			remoteInfo = Bubbles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CD9A64014D1974E0D432024 /* Pods-Bubbles-BubblesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bubbles-BubblesTests.debug.xcconfig"; path = "Target Support Files/Pods-Bubbles-BubblesTests/Pods-Bubbles-BubblesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B3323A832EB63A73C9E3931 /* Pods-PearlsOfWisdom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlsOfWisdom.debug.xcconfig"; path = "Target Support Files/Pods-PearlsOfWisdom/Pods-PearlsOfWisdom.debug.xcconfig"; sourceTree = "<group>"; };
+		491337EB5CBF440E432E6778 /* Pods-PearlsOfWisdom-PearlsOfWisdomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlsOfWisdom-PearlsOfWisdomUITests.debug.xcconfig"; path = "Target Support Files/Pods-PearlsOfWisdom-PearlsOfWisdomUITests/Pods-PearlsOfWisdom-PearlsOfWisdomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59203F73C958A2E62B88E15F /* Pods_PearlsOfWisdom_PearlsOfWisdomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PearlsOfWisdom_PearlsOfWisdomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7702F1D5DDC9477F2BB720F8 /* Pods-Bubbles-BubblesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bubbles-BubblesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bubbles-BubblesUITests/Pods-Bubbles-BubblesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82A3681035E7343C7D8F0144 /* Pods-Bubbles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bubbles.debug.xcconfig"; path = "Target Support Files/Pods-Bubbles/Pods-Bubbles.debug.xcconfig"; sourceTree = "<group>"; };
+		8412074131BE7525246BC926 /* Pods-Bubbles-BubblesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bubbles-BubblesTests.release.xcconfig"; path = "Target Support Files/Pods-Bubbles-BubblesTests/Pods-Bubbles-BubblesTests.release.xcconfig"; sourceTree = "<group>"; };
+		94E42341B8EFE01643CDB82E /* Pods-Bubbles-BubblesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bubbles-BubblesUITests.release.xcconfig"; path = "Target Support Files/Pods-Bubbles-BubblesUITests/Pods-Bubbles-BubblesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A05417B7FD6583D167545E54 /* Pods_PearlsOfWisdom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PearlsOfWisdom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D19C028A545F510BA172EA /* Pods_PearlsOfWisdom_PearlsOfWisdomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PearlsOfWisdom_PearlsOfWisdomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C7A376C739FA5127273DA3 /* Pods-Bubbles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bubbles.release.xcconfig"; path = "Target Support Files/Pods-Bubbles/Pods-Bubbles.release.xcconfig"; sourceTree = "<group>"; };
+		C95300F579DE8F00A4C4CB7E /* Pods-PearlsOfWisdom-PearlsOfWisdomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlsOfWisdom-PearlsOfWisdomTests.release.xcconfig"; path = "Target Support Files/Pods-PearlsOfWisdom-PearlsOfWisdomTests/Pods-PearlsOfWisdom-PearlsOfWisdomTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC07336FF6BE7B2CD6D5DF14 /* Pods-PearlsOfWisdom-PearlsOfWisdomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlsOfWisdom-PearlsOfWisdomTests.debug.xcconfig"; path = "Target Support Files/Pods-PearlsOfWisdom-PearlsOfWisdomTests/Pods-PearlsOfWisdom-PearlsOfWisdomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F92F23AF29B3F83D000B46C5 /* PearlsOfWisdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PearlsOfWisdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92F23B229B3F83D000B46C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F92F23B429B3F83D000B46C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F92F23B629B3F83D000B46C5 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		F92F23B929B3F83D000B46C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F92F23BB29B3F83E000B46C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F92F23BE29B3F83E000B46C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F92F23C029B3F83E000B46C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92F23C529B3F83F000B46C5 /* PearlsOfWisdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PearlsOfWisdomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92F23C929B3F83F000B46C5 /* PearlsOfWisdomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlsOfWisdomTests.swift; sourceTree = "<group>"; };
+		F92F23CF29B3F83F000B46C5 /* PearlsOfWisdomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PearlsOfWisdomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92F23D329B3F83F000B46C5 /* PearlsOfWisdomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlsOfWisdomUITests.swift; sourceTree = "<group>"; };
+		F92F23D529B3F83F000B46C5 /* PearlsOfWisdomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlsOfWisdomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F92F23E329B48C4B000B46C5 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		F92F23E729B4AD0D000B46C5 /* QuotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesService.swift; sourceTree = "<group>"; };
+		F92F23EB29B50FA6000B46C5 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+		F92F23EF29B51EFF000B46C5 /* AlcanteraSerif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlcanteraSerif.ttf; sourceTree = "<group>"; };
+		F92F23F229B52D18000B46C5 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FB8A7833BB32C83E7FDD1CCC /* Pods-PearlsOfWisdom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlsOfWisdom.release.xcconfig"; path = "Target Support Files/Pods-PearlsOfWisdom/Pods-PearlsOfWisdom.release.xcconfig"; sourceTree = "<group>"; };
+		FBB679DF060BB7CFF3CC1BAF /* Pods-PearlsOfWisdom-PearlsOfWisdomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PearlsOfWisdom-PearlsOfWisdomUITests.release.xcconfig"; path = "Target Support Files/Pods-PearlsOfWisdom-PearlsOfWisdomUITests/Pods-PearlsOfWisdom-PearlsOfWisdomUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92F23AC29B3F83D000B46C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623272F90E7DFA8257639E9 /* Pods_PearlsOfWisdom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F23C229B3F83F000B46C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2ABBC3C674F83D2B2FF5C0 /* Pods_PearlsOfWisdom_PearlsOfWisdomTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F23CC29B3F83F000B46C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15D88572CF9917E75D00061 /* Pods_PearlsOfWisdom_PearlsOfWisdomUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D6CE97C60AB9271D4A46646 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A05417B7FD6583D167545E54 /* Pods_PearlsOfWisdom.framework */,
+				59203F73C958A2E62B88E15F /* Pods_PearlsOfWisdom_PearlsOfWisdomTests.framework */,
+				B9D19C028A545F510BA172EA /* Pods_PearlsOfWisdom_PearlsOfWisdomUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6A90B1FA7AAF8F3C063D5B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82A3681035E7343C7D8F0144 /* Pods-Bubbles.debug.xcconfig */,
+				C8C7A376C739FA5127273DA3 /* Pods-Bubbles.release.xcconfig */,
+				2CD9A64014D1974E0D432024 /* Pods-Bubbles-BubblesTests.debug.xcconfig */,
+				8412074131BE7525246BC926 /* Pods-Bubbles-BubblesTests.release.xcconfig */,
+				7702F1D5DDC9477F2BB720F8 /* Pods-Bubbles-BubblesUITests.debug.xcconfig */,
+				94E42341B8EFE01643CDB82E /* Pods-Bubbles-BubblesUITests.release.xcconfig */,
+				3B3323A832EB63A73C9E3931 /* Pods-PearlsOfWisdom.debug.xcconfig */,
+				FB8A7833BB32C83E7FDD1CCC /* Pods-PearlsOfWisdom.release.xcconfig */,
+				EC07336FF6BE7B2CD6D5DF14 /* Pods-PearlsOfWisdom-PearlsOfWisdomTests.debug.xcconfig */,
+				C95300F579DE8F00A4C4CB7E /* Pods-PearlsOfWisdom-PearlsOfWisdomTests.release.xcconfig */,
+				491337EB5CBF440E432E6778 /* Pods-PearlsOfWisdom-PearlsOfWisdomUITests.debug.xcconfig */,
+				FBB679DF060BB7CFF3CC1BAF /* Pods-PearlsOfWisdom-PearlsOfWisdomUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F92F23A629B3F83D000B46C5 = {
+			isa = PBXGroup;
+			children = (
+				F92F23B129B3F83D000B46C5 /* PearlsOfWisdom */,
+				F92F23C829B3F83F000B46C5 /* PearlsOfWisdomTests */,
+				F92F23D229B3F83F000B46C5 /* PearlsOfWisdomUITests */,
+				F92F23B029B3F83D000B46C5 /* Products */,
+				B6A90B1FA7AAF8F3C063D5B5 /* Pods */,
+				6D6CE97C60AB9271D4A46646 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F92F23B029B3F83D000B46C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92F23AF29B3F83D000B46C5 /* PearlsOfWisdom.app */,
+				F92F23C529B3F83F000B46C5 /* PearlsOfWisdomTests.xctest */,
+				F92F23CF29B3F83F000B46C5 /* PearlsOfWisdomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92F23B129B3F83D000B46C5 /* PearlsOfWisdom */ = {
+			isa = PBXGroup;
+			children = (
+				F92F23F429B52E01000B46C5 /* Views */,
+				F92F23F129B52D08000B46C5 /* Extensions */,
+				F92F23EE29B51E92000B46C5 /* QuotesView */,
+				F92F23ED29B51E7C000B46C5 /* Resources */,
+				F92F23E929B50F91000B46C5 /* ViewModel */,
+				F92F23E529B4ACF6000B46C5 /* Network */,
+				F92F23E229B48C38000B46C5 /* Models */,
+				F92F23B229B3F83D000B46C5 /* AppDelegate.swift */,
+				F92F23B429B3F83D000B46C5 /* SceneDelegate.swift */,
+				F92F23B829B3F83D000B46C5 /* Main.storyboard */,
+				F92F23BD29B3F83E000B46C5 /* LaunchScreen.storyboard */,
+				F92F23C029B3F83E000B46C5 /* Info.plist */,
+			);
+			path = PearlsOfWisdom;
+			sourceTree = "<group>";
+		};
+		F92F23C829B3F83F000B46C5 /* PearlsOfWisdomTests */ = {
+			isa = PBXGroup;
+			children = (
+				F92F23C929B3F83F000B46C5 /* PearlsOfWisdomTests.swift */,
+			);
+			path = PearlsOfWisdomTests;
+			sourceTree = "<group>";
+		};
+		F92F23D229B3F83F000B46C5 /* PearlsOfWisdomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F92F23D329B3F83F000B46C5 /* PearlsOfWisdomUITests.swift */,
+				F92F23D529B3F83F000B46C5 /* PearlsOfWisdomUITestsLaunchTests.swift */,
+			);
+			path = PearlsOfWisdomUITests;
+			sourceTree = "<group>";
+		};
+		F92F23E229B48C38000B46C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F92F23E329B48C4B000B46C5 /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F92F23E529B4ACF6000B46C5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F92F23E729B4AD0D000B46C5 /* QuotesService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F92F23E929B50F91000B46C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F92F23EB29B50FA6000B46C5 /* QuotesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F92F23ED29B51E7C000B46C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F92F23EF29B51EFF000B46C5 /* AlcanteraSerif.ttf */,
+				F92F23BB29B3F83E000B46C5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F92F23EE29B51E92000B46C5 /* QuotesView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QuotesView;
+			sourceTree = "<group>";
+		};
+		F92F23F129B52D08000B46C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F92F23F229B52D18000B46C5 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F92F23F429B52E01000B46C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F92F23B629B3F83D000B46C5 /* QuotesViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92F23AE29B3F83D000B46C5 /* PearlsOfWisdom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92F23D929B3F83F000B46C5 /* Build configuration list for PBXNativeTarget "PearlsOfWisdom" */;
+			buildPhases = (
+				E0C9ED195DBAB2C66B42D89D /* [CP] Check Pods Manifest.lock */,
+				F92F23AB29B3F83D000B46C5 /* Sources */,
+				F92F23AC29B3F83D000B46C5 /* Frameworks */,
+				F92F23AD29B3F83D000B46C5 /* Resources */,
+				2DAB1D6D7EDF117EC1806868 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PearlsOfWisdom;
+			productName = Bubbles;
+			productReference = F92F23AF29B3F83D000B46C5 /* PearlsOfWisdom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F92F23C429B3F83F000B46C5 /* PearlsOfWisdomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92F23DC29B3F83F000B46C5 /* Build configuration list for PBXNativeTarget "PearlsOfWisdomTests" */;
+			buildPhases = (
+				A71D75D01E199FA671D025A8 /* [CP] Check Pods Manifest.lock */,
+				F92F23C129B3F83F000B46C5 /* Sources */,
+				F92F23C229B3F83F000B46C5 /* Frameworks */,
+				F92F23C329B3F83F000B46C5 /* Resources */,
+				FECB5D4D8A8591034C37D9F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92F23C729B3F83F000B46C5 /* PBXTargetDependency */,
+			);
+			name = PearlsOfWisdomTests;
+			productName = BubblesTests;
+			productReference = F92F23C529B3F83F000B46C5 /* PearlsOfWisdomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F92F23CE29B3F83F000B46C5 /* PearlsOfWisdomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92F23DF29B3F83F000B46C5 /* Build configuration list for PBXNativeTarget "PearlsOfWisdomUITests" */;
+			buildPhases = (
+				A3CA7D2F8DDF825CA210289A /* [CP] Check Pods Manifest.lock */,
+				F92F23CB29B3F83F000B46C5 /* Sources */,
+				F92F23CC29B3F83F000B46C5 /* Frameworks */,
+				F92F23CD29B3F83F000B46C5 /* Resources */,
+				2B55AA1E709DE6744B86A44A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92F23D129B3F83F000B46C5 /* PBXTargetDependency */,
+			);
+			name = PearlsOfWisdomUITests;
+			productName = BubblesUITests;
+			productReference = F92F23CF29B3F83F000B46C5 /* PearlsOfWisdomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92F23A729B3F83D000B46C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F92F23AE29B3F83D000B46C5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F92F23C429B3F83F000B46C5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F92F23AE29B3F83D000B46C5;
+					};
+					F92F23CE29B3F83F000B46C5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F92F23AE29B3F83D000B46C5;
+					};
+				};
+			};
+			buildConfigurationList = F92F23AA29B3F83D000B46C5 /* Build configuration list for PBXProject "PearlsOfWisdom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F92F23A629B3F83D000B46C5;
+			productRefGroup = F92F23B029B3F83D000B46C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92F23AE29B3F83D000B46C5 /* PearlsOfWisdom */,
+				F92F23C429B3F83F000B46C5 /* PearlsOfWisdomTests */,
+				F92F23CE29B3F83F000B46C5 /* PearlsOfWisdomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92F23AD29B3F83D000B46C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F23BF29B3F83E000B46C5 /* LaunchScreen.storyboard in Resources */,
+				F92F23BC29B3F83E000B46C5 /* Assets.xcassets in Resources */,
+				F92F23F029B521A8000B46C5 /* AlcanteraSerif.ttf in Resources */,
+				F92F23BA29B3F83D000B46C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F23C329B3F83F000B46C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F23CD29B3F83F000B46C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B55AA1E709DE6744B86A44A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PearlsOfWisdom-PearlsOfWisdomUITests/Pods-PearlsOfWisdom-PearlsOfWisdomUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PearlsOfWisdom-PearlsOfWisdomUITests/Pods-PearlsOfWisdom-PearlsOfWisdomUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PearlsOfWisdom-PearlsOfWisdomUITests/Pods-PearlsOfWisdom-PearlsOfWisdomUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DAB1D6D7EDF117EC1806868 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PearlsOfWisdom/Pods-PearlsOfWisdom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PearlsOfWisdom/Pods-PearlsOfWisdom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PearlsOfWisdom/Pods-PearlsOfWisdom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CA7D2F8DDF825CA210289A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PearlsOfWisdom-PearlsOfWisdomUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71D75D01E199FA671D025A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PearlsOfWisdom-PearlsOfWisdomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C9ED195DBAB2C66B42D89D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PearlsOfWisdom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FECB5D4D8A8591034C37D9F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PearlsOfWisdom-PearlsOfWisdomTests/Pods-PearlsOfWisdom-PearlsOfWisdomTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PearlsOfWisdom-PearlsOfWisdomTests/Pods-PearlsOfWisdom-PearlsOfWisdomTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PearlsOfWisdom-PearlsOfWisdomTests/Pods-PearlsOfWisdom-PearlsOfWisdomTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92F23AB29B3F83D000B46C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F23E429B48C4B000B46C5 /* Quote.swift in Sources */,
+				F92F23F329B52D18000B46C5 /* UIColor.swift in Sources */,
+				F92F23EC29B50FA6000B46C5 /* QuotesViewModel.swift in Sources */,
+				F92F23B729B3F83D000B46C5 /* QuotesViewController.swift in Sources */,
+				F92F23E829B4AD0D000B46C5 /* QuotesService.swift in Sources */,
+				F92F23B329B3F83D000B46C5 /* AppDelegate.swift in Sources */,
+				F92F23B529B3F83D000B46C5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F23C129B3F83F000B46C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F23CA29B3F83F000B46C5 /* PearlsOfWisdomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F23CB29B3F83F000B46C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F23D629B3F83F000B46C5 /* PearlsOfWisdomUITestsLaunchTests.swift in Sources */,
+				F92F23D429B3F83F000B46C5 /* PearlsOfWisdomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F92F23C729B3F83F000B46C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92F23AE29B3F83D000B46C5 /* PearlsOfWisdom */;
+			targetProxy = F92F23C629B3F83F000B46C5 /* PBXContainerItemProxy */;
+		};
+		F92F23D129B3F83F000B46C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92F23AE29B3F83D000B46C5 /* PearlsOfWisdom */;
+			targetProxy = F92F23D029B3F83F000B46C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F92F23B829B3F83D000B46C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92F23B929B3F83D000B46C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F92F23BD29B3F83E000B46C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92F23BE29B3F83E000B46C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F92F23D729B3F83F000B46C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F92F23D829B3F83F000B46C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92F23DA29B3F83F000B46C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3323A832EB63A73C9E3931 /* Pods-PearlsOfWisdom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4265457Y3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PearlsOfWisdom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doston.PearlsOfWisdom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F92F23DB29B3F83F000B46C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8A7833BB32C83E7FDD1CCC /* Pods-PearlsOfWisdom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4265457Y3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PearlsOfWisdom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doston.PearlsOfWisdom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F92F23DD29B3F83F000B46C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC07336FF6BE7B2CD6D5DF14 /* Pods-PearlsOfWisdom-PearlsOfWisdomTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4265457Y3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doston.BubblesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PearlsOfWisdom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PearlsOfWisdom";
+			};
+			name = Debug;
+		};
+		F92F23DE29B3F83F000B46C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95300F579DE8F00A4C4CB7E /* Pods-PearlsOfWisdom-PearlsOfWisdomTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4265457Y3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doston.BubblesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PearlsOfWisdom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PearlsOfWisdom";
+			};
+			name = Release;
+		};
+		F92F23E029B3F83F000B46C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491337EB5CBF440E432E6778 /* Pods-PearlsOfWisdom-PearlsOfWisdomUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4265457Y3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doston.BubblesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bubbles;
+			};
+			name = Debug;
+		};
+		F92F23E129B3F83F000B46C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB679DF060BB7CFF3CC1BAF /* Pods-PearlsOfWisdom-PearlsOfWisdomUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4265457Y3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doston.BubblesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bubbles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92F23AA29B3F83D000B46C5 /* Build configuration list for PBXProject "PearlsOfWisdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F23D729B3F83F000B46C5 /* Debug */,
+				F92F23D829B3F83F000B46C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92F23D929B3F83F000B46C5 /* Build configuration list for PBXNativeTarget "PearlsOfWisdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F23DA29B3F83F000B46C5 /* Debug */,
+				F92F23DB29B3F83F000B46C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92F23DC29B3F83F000B46C5 /* Build configuration list for PBXNativeTarget "PearlsOfWisdomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F23DD29B3F83F000B46C5 /* Debug */,
+				F92F23DE29B3F83F000B46C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92F23DF29B3F83F000B46C5 /* Build configuration list for PBXNativeTarget "PearlsOfWisdomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F23E029B3F83F000B46C5 /* Debug */,
+				F92F23E129B3F83F000B46C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92F23A729B3F83D000B46C5 /* Project object */;
+}

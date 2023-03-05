@@ -1,0 +1,6 @@
+framework module Pods_PearlsOfWisdom_PearlsOfWisdomTests {
+  umbrella header "Pods-PearlsOfWisdom-PearlsOfWisdomTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
